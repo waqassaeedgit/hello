@@ -54,17 +54,6 @@
     foreach ($collections as $product) {
         $x = 0;
         $test = $product->getData();
-
-
-
-
-
-
-
-
-
-
-        
         foreach ($result1 as $value) {
             $test1 = $value;   
             if ($test["sku"] == $test1["sku"]) {
